@@ -1,0 +1,63 @@
+@font-face {
+	font-family: 'Open Sans';
+	src: url(../font/OpenSans-Light.ttf);
+}
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #7BDBFF;
+	font-family: 'Open Sans';
+}
+h2, h1 {
+	color: #FF3800;
+	margin-left: 3%; 
+}
+header {
+	border: 4px solid #FF3800;
+	margin: 3% 15%;
+	padding: 1% 0 0 0;
+
+}
+nav {
+	background-color: #FF3800;
+	padding-top: 1%;
+}
+li {
+	list-style-type: none;
+	float: left;
+	width: 33%;
+	text-align: center;
+	color: white;
+}
+ul {
+	display: inline-table;
+	padding-left: 0;
+	margin: 0;
+	width: 100%;
+}
+form {
+	display: inline-table;
+	width: 60%;
+	margin: 2% 20%;
+	text-align: center;
+}
+form>* {
+	float: left;
+	display: block;
+	width: 100%;
+	margin: 2% 0;
+	font-size: 1.3em;
+
+}
+input[type="number"] {
+	width: 80px;
+	margin-left: 2%;
+	font-size: 1.1em;
+}
+button {
+	border: 4px solid #FF3800;
+	font-family: 'Open Sans';
+	background-color: #FF3800;
+	color: white;
+	font-size: 1em;
+}
